@@ -17,7 +17,6 @@ alpha = 0.01
 J = 0
 computeCost = function(X, y, theta) {
   J = sum(((X%*%theta - y)^2))/(2*m)
-
 return (J)
 }
 
