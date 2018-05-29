@@ -1,5 +1,4 @@
 # M-Learning
--
 
 data = read.table("ex1data1.txt",header=F,sep=",",dec=".")
 X = data[, 1]
@@ -15,7 +14,7 @@ theta = rep(0,2) #initialize fitting parameters
 iterations = 1500
 alpha = 0.01
 
-#Função de custo
+#Cust function
 J = 0
 computeCost = function(X, y, theta) {
   J = sum(((X%*%theta - y)^2))/(2*m)
