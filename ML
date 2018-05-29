@@ -1,1 +1,0 @@
-This is my attempt of write codes of Machine Learning in R, using what I'm learning in Coursera (https://www.coursera.org/learn/machine-learning/.) 
