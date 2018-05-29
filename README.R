@@ -13,7 +13,7 @@ theta = rep(0,2) #initialize fitting parameters
 iterations = 1500
 alpha = 0.01
 
-#Função de custo
+#Cust functio 
 J = 0
 computeCost = function(X, y, theta) {
   J = sum(((X%*%theta - y)^2))/(2*m)
